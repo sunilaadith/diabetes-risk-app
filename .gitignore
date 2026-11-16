@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# ML specific
+models/*.pkl
+mlruns/
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (optional - if dataset is large)
+# data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
